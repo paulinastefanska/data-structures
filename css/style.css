@@ -4,8 +4,8 @@ body { padding: 10px; text-align: center; }
 
 header { display: block; border-bottom: 1px solid #000; }
 
-.highlighted { background: lime; }
+.highlighted { background: green; }
 
-.special-header { background: yellow; }
+.special-header { background: orange; }
 
 .important { opacity: 1; }
