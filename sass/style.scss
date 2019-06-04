@@ -2,7 +2,6 @@ body {
 	padding: 10px;
 	text-align: center;
 }
-
 .box {
 	display: inline-block;
 	margin: 10px;
@@ -11,17 +10,18 @@ body {
 	min-height: 100px;
 	text-align: center;
 	vertical-align: top;
-	header {
-		display: block;
-		border-bottom: 1px solid #000;
-	}
+	opacity: 0.7;
 }
-
-.box-bg {
+header {
+	display: block;
+	border-bottom: 1px solid #000;
+}
+.highlighted {
 	background: lime;
 }
-
-.header-special {
-	font-weight: bold;
+.special-header {
 	background: yellow;
+}
+.important {
+	opacity: 1;
 }
